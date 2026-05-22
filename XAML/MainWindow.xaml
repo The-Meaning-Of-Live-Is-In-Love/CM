@@ -62,7 +62,17 @@
                 <StackPanel
                     Grid.Column = "0">
                     <TextBox
-                        Name = "Text_Box_1"
+                        Name = "Text_Box_Name"
+                        Width = "150"
+                        MaxHeight = "30"
+                        />
+                    <TextBox
+                        Name = "Text_Box_Type"
+                        Width = "150"
+                        MaxHeight = "30"
+                        />
+                    <TextBox
+                        Name = "Text_Box_Value"
                         Width = "150"
                         MaxHeight = "30"
                         />
@@ -70,10 +80,22 @@
                 <StackPanel
                     Grid.Column = "1">
                     <TextBlock
-                        Name = "Text_Block_1"
+                        Name = "Text_Block_Name"
                         Width = "150"
                         MaxHeight = "30"
                         Text = "Название"
+                        />
+                    <TextBlock
+                        Name = "Text_Block_Type"
+                        Width = "150"
+                        MaxHeight = "30"
+                        Text = "Тип"
+                        />
+                    <TextBlock
+                        Name = "Text_Block_Value"
+                        Width = "150"
+                        MaxHeight = "30"
+                        Text = "Значение"
                         />
                 </StackPanel>
             </Grid>
