@@ -64,17 +64,32 @@
                     <TextBox
                         Name = "Text_Box_Name"
                         Width = "150"
-                        MaxHeight = "30"
+                        Height = "20"
                         />
                     <TextBox
                         Name = "Text_Box_Type"
                         Width = "150"
-                        MaxHeight = "30"
+                        Height = "20"
                         />
                     <TextBox
                         Name = "Text_Box_Value"
                         Width = "150"
-                        MaxHeight = "30"
+                        Height = "20"
+                        />
+                    <TextBox
+                        Name = "Text_Box_First_Operand"
+                        Width = "150"
+                        Height = "20"
+                        />
+                    <TextBox
+                        Name = "Text_Box_Second_Operand"
+                        Width = "150"
+                        Height = "20"
+                        />
+                    <TextBox
+                        Name = "Text_Box_Sign"
+                        Width = "150"
+                        Height = "20"
                         />
                 </StackPanel>
                 <StackPanel
@@ -82,20 +97,38 @@
                     <TextBlock
                         Name = "Text_Block_Name"
                         Width = "150"
-                        MaxHeight = "30"
+                        Height = "20"
                         Text = "Название"
                         />
                     <TextBlock
                         Name = "Text_Block_Type"
                         Width = "150"
-                        MaxHeight = "30"
+                        Height = "20"
                         Text = "Тип"
                         />
                     <TextBlock
                         Name = "Text_Block_Value"
                         Width = "150"
-                        MaxHeight = "30"
+                        Height = "20"
                         Text = "Значение"
+                        />
+                    <TextBlock
+                        Name = "Text_Block_First_Operand"
+                        Width = "150"
+                        Height = "20"
+                        Text = "Название 1 операнда"
+                        />
+                    <TextBlock
+                        Name = "Text_Block_Second_Operand"
+                        Width = "150"
+                        Height = "20"
+                        Text = "Название 2 операнда"
+                        />
+                    <TextBlock
+                        Name = "Text_Block_Sign"
+                        Width = "150"
+                        Height = "20"
+                        Text = "Знак"
                         />
                 </StackPanel>
             </Grid>
