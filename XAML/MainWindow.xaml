@@ -100,5 +100,16 @@
                 </StackPanel>
             </Grid>
         </StackPanel>
+        <StackPanel
+            Grid.Column = "1"
+            HorizontalAlignment = "Center"
+            VerticalAlignment = "Bottom">
+            <Button 
+                Name = "ClipBoard_Button"
+                Click = "ClipBoard"
+                MaxHeight = "30"
+                MaxWidth = "200"
+                Content = "Копировать в буфер обмена"/>
+        </StackPanel>
     </Grid>
 </Window>

@@ -101,6 +101,14 @@ namespace Code_Maker
             Buttons_Values.ItemsSource = null;
             Buttons_Values.ItemsSource = Library_Buttons;
         }
+        private void ClipBoard (object sender, EventArgs Key_Pressed)
+        {
+            string ClipBoard_Text = "";
+            string ClipBoard_Text_Libraryes = string.Join("\n", Libraryes_List);
+            string ClipBoard_Text_Main_Function = string.Join("\n", Variables_List);
+            ClipBoard_Text = ClipBoard_Text_Libraryes + "\nUsing namespace std;\nint main()\n{\n" + ClipBoard_Text_Main_Function + "\n\treturn 0;\n}";
+            Clipboard.SetText(ClipBoard_Text);
+        }
         private void Menu_Switching_Variables(object sender, EventArgs Key_Pressed)
         {
             List<Button> Variable_Buttons = new List<Button>();
